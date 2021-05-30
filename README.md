@@ -20,5 +20,9 @@
 
 ### Miscs
 * M3 bolts / nuts (to assemble the frames and stands)
+  * M3 10mm, 15mm, 20mm bolts
+  * M3 nuts
 * Wirings (for power supply)
+  * JST VH 3.96mm 4P connector, and wirings
 * Wirings (for HUB75 connection)
+  * 2x10pin 2.54mm IDC cables
