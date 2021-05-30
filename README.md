@@ -41,6 +41,11 @@
 * Install [PIL](https://pillow.readthedocs.io/en/stable/), [NumPy](https://numpy.org/)
 * Install [RPi RGB LED matrix](https://github.com/hzeller/rpi-rgb-led-matrix) with its Python bindings.
 * Put the library files in ```/python/library/``` directory into the project folder, or install the module system-wide.
+  * To install the module system-wide
+  ```bash
+  cd python/library
+  python setup.py install
+  ```
 
 ### Running the examples
 * Run sample scripts in ```/python/example/``` directory with ```sudo```.
