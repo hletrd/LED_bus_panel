@@ -1,5 +1,12 @@
-from PIL import Image, ImageFont, ImageDraw
-import numpy as np
+try:
+	from PIL import Image, ImageFont, ImageDraw
+except:
+	sys.stderr.write('Pillow is not installed.\n')
+
+try:
+	import numpy as np
+except:
+	sys.stderr.write('NumPy is not installed.\n')
 import os
 
 class BusPanel:

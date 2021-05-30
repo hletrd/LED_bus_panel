@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import sys
 
 try:
@@ -9,7 +7,10 @@ except:
 
 import colorsys
 import random
-import numpy as np
+try:
+	import numpy as np
+except:
+	sys.stderr.write('NumPy is not installed.\n')
 
 try:
 	from rgbmatrix import RGBMatrix, RGBMatrixOptions
