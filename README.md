@@ -4,6 +4,8 @@
 
 ![예시](example.jpg)
 
+---
+
 ## Bill of materials
 ### Parts
 * 6 * P4 RGB LED panels (64x32)
@@ -26,3 +28,16 @@
   * JST VH 3.96mm 4P connector, and wirings
 * Wirings (for HUB75 connection)
   * 2x10pin 2.54mm IDC cables
+
+---
+
+## Python library
+
+### Requirements
+* [Python 3](https://python.org/)
+* Install [PIL](https://pillow.readthedocs.io/en/stable/), [NumPy](https://numpy.org/)
+* Install [RPi RGB LED matrix](https://github.com/hzeller/rpi-rgb-led-matrix) with its Python bindings.
+* Put the library files in ```/python/library/``` directory into the project folder, or install the module system-wide.
+
+### Running the examples
+* Run sample scripts in ```/python/example/``` directory with ```sudo```.
