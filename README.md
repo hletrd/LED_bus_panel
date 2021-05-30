@@ -11,7 +11,7 @@
 * 6 * P4 RGB LED panels (64x32pixels, 256x128mm)
 * A Raspberry Pi 4
 * [Adafruit RGB matrix HAT](https://www.adafruit.com/product/2345)
-* 5V, >150W SMPS
+* A 5V, >150W(>30A) SMPS
 
 ### Materials, with some workings
 * 5mm MDF (to make the frame)
@@ -48,4 +48,6 @@
   ```
 
 ### Running the examples
+* Set the required parameters in ```xylopanel``` library.
+  * Refer to the ```Panel.__init__()``` of ```python/library/xylopanel/xylopanel.py```
 * Run sample scripts in ```/python/example/``` directory with ```sudo```.
