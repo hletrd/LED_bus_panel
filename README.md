@@ -9,19 +9,22 @@
 ## Bill of materials
 ### Parts
 * 6 * P4 RGB LED panels (64x32pixels, 256x128mm)
-* A Raspberry Pi 4
+* A Raspberry Pi 4 + An SD card (>=16GB)
 * [Adafruit RGB matrix HAT](https://www.adafruit.com/product/2345)
 * A 5V, >150W(>30A) SMPS
 
 ### Materials, with some workings
 * 5mm MDF (to make the frame)
+  * AutoCAD 도면 파일: ```ledpanel_frame.dwg```
   * 레이저 커터로 절단해서 프레임을 제작함
   * 패널의 종류에 따라 나사홀의 위치가 다를 수 있음.
   * 공차에 따라 나사홀 크기 조절이 필요할 수 있음.
 * 3D printer (to make the stand)
+  * 출력 모델 파일: ```ledpanel_stand.stl```
   * 3D 프린터로 받침대를 출력함
   * 공차에 따라 나사홀 크기 조절이 필요할 수 있음.
 * Power distribution PCB
+  * Gerber 파일: ```power_distribution_board_gerber.zip```
 
 ### Miscs
 * M3 bolts / nuts (to assemble the frames and stands)
